@@ -1,6 +1,14 @@
 {
-    "name" : "CockpitReports",
-    "version" : "1.0.0",
-    "title" : "Cockpit Reports",
-    "homepage" : "http://github.com/danielfleck"
+  "name": "CockpitReports",
+  "version": "1.0.0",
+  "title": "Cockpit Reports",
+  "description": "CockpitReports é uma biblioteca Javascript que tem o objetivo de criar Dashboards e relatórios a partir de dados remotos.",
+  "homepage": "http://github.com/danielfleck",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "^0.5.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }

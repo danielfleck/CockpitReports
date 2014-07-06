@@ -1,0 +1,27 @@
+{
+  "name": "CockpitReports",
+  "version": "1.0.0-dev",
+  "homepage": "https://github.com/danielfleck/CockpitReports",
+  "authors": [
+    "Daniel Rodrigo Fleck <danielfleck@gmail.com>"
+  ],
+  "main": "cockpit-reports.js",
+  "keywords": [
+    "Cockpit",
+    "Dashboard",
+    "Relatórios",
+    "BI"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
