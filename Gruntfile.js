@@ -8,7 +8,9 @@ module.exports = function( grunt ) {
 				files : {
 					'build/js/cockpit-reports.js' : [
 						'src/_js/CockpitReports.js',
-						'src/_js/CR/Cockpit.js'
+						'src/_js/CR/Ferramentas.js',
+						'src/_js/CR/Cockpit.js',
+						'src/_js/CR/Dashboard.js'
 					]
 				}
 			}

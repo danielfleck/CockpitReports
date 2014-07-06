@@ -1,13 +1,13 @@
 (function( jQuery,CR ) {
 	CR.Cockpit = function(elemento) {
-		var __classe = 'cockpit-conteiner';
-
+		this.__classe = 'cockpit-conteiner';
 		this._elemento = elemento;
+		this._dashboards = [];
 
-		function __inicializar(__elemento) {
-			CR._definirClasse(__elemento, __classe);
+		function __inicializar(obj) {
+			CR.Ferramentas._definirClasse(obj._elemento, obj.__classe);
 		}
 		
-		__inicializar(elemento);
+		__inicializar( this );
 	}
 })( $, CR );
